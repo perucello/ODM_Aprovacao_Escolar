@@ -1,0 +1,29 @@
+# Vocabulary Properties
+uuid = 48c2301e-7a21-46d9-bed6-00e92dfbcbb5
+
+# com.educaciencia.odm.response.Resultado
+com.educaciencia.odm.response.Resultado#concept.label = resultado
+com.educaciencia.odm.response.Resultado.geografia#phrase.action = atribuir o geografia {this,PARTITIVE_ARTICLE} a {geografia}
+com.educaciencia.odm.response.Resultado.geografia#phrase.navigation = {geografia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.response.Resultado.historia#phrase.action = atribuir o historia {this,PARTITIVE_ARTICLE} a {historia}
+com.educaciencia.odm.response.Resultado.historia#phrase.navigation = {historia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.response.Resultado.matemarica#phrase.action = atribuir o matemarica {this,PARTITIVE_ARTICLE} a {matemarica}
+com.educaciencia.odm.response.Resultado.matemarica#phrase.navigation = {matemarica} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.response.Resultado.portugues#phrase.action = atribuir o portugues {this,PARTITIVE_ARTICLE} a {portugues}
+com.educaciencia.odm.response.Resultado.portugues#phrase.navigation = {portugues} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.response.Resultado.resultado_media_geografia#phrase.action = atribuir o resultado media geografia {this,PARTITIVE_ARTICLE} a {resultado media geografia}
+com.educaciencia.odm.response.Resultado.resultado_media_geografia#phrase.navigation = {resultado media geografia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.response.Resultado.resultado_media_historia#phrase.action = atribuir o resultado media historia {this,PARTITIVE_ARTICLE} a {resultado media historia}
+com.educaciencia.odm.response.Resultado.resultado_media_historia#phrase.navigation = {resultado media historia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.response.Resultado.resultado_media_matematica#phrase.action = atribuir o resultado media matematica {this,PARTITIVE_ARTICLE} a {resultado media matematica}
+com.educaciencia.odm.response.Resultado.resultado_media_matematica#phrase.navigation = {resultado media matematica} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.response.Resultado.resultado_media_portugues#phrase.action = atribuir o resultado media portugues {this,PARTITIVE_ARTICLE} a {resultado media portugues}
+com.educaciencia.odm.response.Resultado.resultado_media_portugues#phrase.navigation = {resultado media portugues} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.response.Resultado.status_geografia#phrase.action = colocar à {status geografia} que {this} é status geografia
+com.educaciencia.odm.response.Resultado.status_geografia#phrase.navigation = {this} é status geografia
+com.educaciencia.odm.response.Resultado.status_historia#phrase.action = colocar à {status historia} que {this} é status historia
+com.educaciencia.odm.response.Resultado.status_historia#phrase.navigation = {this} é status historia
+com.educaciencia.odm.response.Resultado.status_matematica#phrase.action = colocar à {status matematica} que {this} é status matematica
+com.educaciencia.odm.response.Resultado.status_matematica#phrase.navigation = {this} é status matematica
+com.educaciencia.odm.response.Resultado.status_portugues#phrase.action = colocar à {status portugues} que {this} é status portugues
+com.educaciencia.odm.response.Resultado.status_portugues#phrase.navigation = {this} é status portugues

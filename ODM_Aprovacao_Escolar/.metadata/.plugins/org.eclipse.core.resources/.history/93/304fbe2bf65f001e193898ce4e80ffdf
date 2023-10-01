@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra_Portugues</name>
+  <uuid>e5413ba2-e09a-45f9-b1b0-03b9c8cc6573</uuid>
+  <locale>pt_BR</locale>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,16 @@
+package com.educaciencia.odm.request;
+
+public class Nota_Semestre_2 {
+	
+	private int nota_portugues;
+	private String portugues;
+
+	private int nota_matematica;
+	private String matemarica;
+	
+	private int nota_historia;
+	private String historia;
+	
+	private int nota_geografia;
+	private String geografia;
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Media_Final</name>
+  <uuid>496c94c3-7a95-4dca-bed1-0f4a6a120f80</uuid>
+</ilog.rules.studio.model.base:RulePackage>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Semestre 1</name>
+  <uuid>0e0a3a1b-d7b2-4b68-ade0-92626eda9e42</uuid>
+  <orderedMembers>Regra_Matematica</orderedMembers>
+  <orderedMembers>Regra_Portugues</orderedMembers>
+  <orderedMembers>Regra_Historia</orderedMembers>
+  <orderedMembers>Regra_Geografia</orderedMembers>
+</ilog.rules.studio.model.base:RulePackage>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calcula_Aprovacao_Matematica</name>
+  <uuid>2778e3d1-63ef-48e2-ade8-c37a1ca07d5f</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 o resultado media matematica de resultado é no mínimo 7 
+então 	
+	atribuir o matemarica  de resultado a "Aprovado" ; 
+	Apresentar "Matematica status final: " + o matemarica  de resultado ; 
+	
+senão 	
+	atribuir o matemarica  de resultado a "Reprovado";  
+	Apresentar "Matematica status final: " + o matemarica  de resultado ; 
+  ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

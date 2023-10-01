@@ -1,0 +1,16 @@
+package com.educaciencia.odm.validacao;
+
+public class Calcula_Semestre_2 {
+
+	private int resultado_media_portugues;
+	private String portugues;
+
+	private int resultado_media_matematica;
+	private String matemarica;
+	
+	private int resultado_media_historia;
+	private String historia;
+	
+	private int resultado_media_geografia;
+	private String geografia;
+}

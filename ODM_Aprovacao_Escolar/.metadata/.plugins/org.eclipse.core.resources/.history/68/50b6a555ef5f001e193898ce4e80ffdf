@@ -1,0 +1,107 @@
+package com.educaciencia.odm.request;
+
+/* ********************************************************************** 
+*************** PROJETO EDUUCACIENCIA ***********************************
+*************************************************************************
+****** Data: 30/09/2023
+****** Projeto: APROVACAO ESCOLAR
+****** Versão: 1.0
+****** Atualização: 30/09/2023
+************************************************************************/
+
+public class Nota_Semestre_2 {
+
+	private double nota_portugues;
+	private String portugues = "Sem nota atribuida";
+
+	private double nota_matematica;
+	private String matemarica = "Sem nota atribuida";
+
+	private double nota_historia;
+	private String historia = "Sem nota atribuida";
+
+	private double nota_geografia;
+	private String geografia = "Sem nota atribuida";
+
+	public Nota_Semestre_2() {
+		super();
+	}
+
+	public Nota_Semestre_2(double nota_portugues, String portugues, double nota_matematica, String matemarica,
+			double nota_historia, String historia, double nota_geografia, String geografia) {
+		super();
+		this.nota_portugues = nota_portugues;
+		this.portugues = portugues;
+		this.nota_matematica = nota_matematica;
+		this.matemarica = matemarica;
+		this.nota_historia = nota_historia;
+		this.historia = historia;
+		this.nota_geografia = nota_geografia;
+		this.geografia = geografia;
+	}
+
+	public double getNota_portugues() {
+		return nota_portugues;
+	}
+
+	public void setNota_portugues(double nota_portugues) {
+		this.nota_portugues = nota_portugues;
+	}
+
+	public String getPortugues() {
+		return portugues;
+	}
+
+	public void setPortugues(String portugues) {
+		this.portugues = portugues;
+	}
+
+	public double getNota_matematica() {
+		return nota_matematica;
+	}
+
+	public void setNota_matematica(double nota_matematica) {
+		this.nota_matematica = nota_matematica;
+	}
+
+	public String getMatemarica() {
+		return matemarica;
+	}
+
+	public void setMatemarica(String matemarica) {
+		this.matemarica = matemarica;
+	}
+
+	public double getNota_historia() {
+		return nota_historia;
+	}
+
+	public void setNota_historia(double nota_historia) {
+		this.nota_historia = nota_historia;
+	}
+
+	public String getHistoria() {
+		return historia;
+	}
+
+	public void setHistoria(String historia) {
+		this.historia = historia;
+	}
+
+	public double getNota_geografia() {
+		return nota_geografia;
+	}
+
+	public void setNota_geografia(double nota_geografia) {
+		this.nota_geografia = nota_geografia;
+	}
+
+	public String getGeografia() {
+		return geografia;
+	}
+
+	public void setGeografia(String geografia) {
+		this.geografia = geografia;
+	}
+
+}

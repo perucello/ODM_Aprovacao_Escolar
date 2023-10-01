@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ODM_Aprovacao_Escolar/regras/Aprovado_Reprovado/Calcula_Aprovacao.brl&apos; to &apos;Calcula_Aprovacao_Geografia.brl&apos;" description="Rename resource &apos;Calcula_Aprovacao.brl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="regras/Aprovado_Reprovado/Calcula_Aprovacao.brl" name="Calcula_Aprovacao_Geografia.brl" stamp="1696124977000" updateReferences="true"/>
+</session>

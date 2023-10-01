@@ -1,0 +1,25 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/ODM_Aprovacao_Escolar//ODM_Aprovacao_Escolar_XOM"
+property uuid "e13a6a2b-4924-43c8-997b-bfad68477999"
+package com.educaciencia.odm.response;
+
+
+public class Resultado
+{
+    public string geografia;
+    public string historia;
+    public string matemarica;
+    public string portugues;
+    public double resultado_media_geografia;
+    public double resultado_media_historia;
+    public double resultado_media_matematica;
+    public double resultado_media_portugues;
+    public boolean status_geografia;
+    public boolean status_historia;
+    public boolean status_matematica;
+    public boolean status_portugues;
+    public Resultado();
+    public Resultado(double arg1, string arg2, double arg3, string arg4, double arg5, string arg6, double arg7, string arg8, boolean arg9, boolean arg10, boolean arg11, boolean arg12);
+}
+

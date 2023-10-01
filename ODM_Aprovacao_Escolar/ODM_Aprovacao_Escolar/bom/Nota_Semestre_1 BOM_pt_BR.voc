@@ -1,0 +1,13 @@
+# Vocabulary Properties
+uuid = dbffeaa0-b345-40b0-b4d9-cac3a61f58e7
+
+# com.educaciencia.odm.request.Nota_Semestre_1
+com.educaciencia.odm.request.Nota_Semestre_1#concept.label = nota semestre 1
+com.educaciencia.odm.request.Nota_Semestre_1.nota_geografia#phrase.action = atribuir o nota geografia {this,PARTITIVE_ARTICLE} a {nota geografia}
+com.educaciencia.odm.request.Nota_Semestre_1.nota_geografia#phrase.navigation = {nota geografia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.request.Nota_Semestre_1.nota_historia#phrase.action = atribuir o nota historia {this,PARTITIVE_ARTICLE} a {nota historia}
+com.educaciencia.odm.request.Nota_Semestre_1.nota_historia#phrase.navigation = {nota historia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.request.Nota_Semestre_1.nota_matematica#phrase.action = atribuir o nota matematica {this,PARTITIVE_ARTICLE} a {nota matematica}
+com.educaciencia.odm.request.Nota_Semestre_1.nota_matematica#phrase.navigation = {nota matematica} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.request.Nota_Semestre_1.nota_portugues#phrase.action = atribuir o nota portugues {this,PARTITIVE_ARTICLE} a {nota portugues}
+com.educaciencia.odm.request.Nota_Semestre_1.nota_portugues#phrase.navigation = {nota portugues} {this,PARTITIVE_ARTICLE}

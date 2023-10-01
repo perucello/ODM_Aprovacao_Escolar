@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calcula_Aprovacao_Portugues</name>
+  <uuid>c8cd1d10-d793-498c-ae35-096b137c714c</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 o resultado media portugues de resultado é no mínimo 7 
+então 
+	atribuir o portugues de resultado a "Aprovado" ; 
+	Apresentar "Portugues status final: " + o portugues  de resultado ; 
+	
+senão 	
+	atribuir o portugues  de resultado a "Reprovado";  
+	Apresentar "Portugues status final: " + o portugues  de resultado ; 
+  ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

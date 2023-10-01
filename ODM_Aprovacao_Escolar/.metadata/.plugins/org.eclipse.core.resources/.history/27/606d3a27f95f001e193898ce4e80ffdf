@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra_Calcula_Media_Final</name>
+  <uuid>5b532f10-bea3-45a0-8b41-e944bd2c534e</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

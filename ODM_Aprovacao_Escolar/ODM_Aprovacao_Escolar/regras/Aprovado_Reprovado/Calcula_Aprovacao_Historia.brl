@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calcula_Aprovacao_Historia</name>
+  <uuid>e73bf6c4-4718-451a-94fc-ea3aa2ce6747</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 o resultado media historia de resultado é no mínimo 7 
+então 
+	atribuir o historia de resultado a "Aprovado" ; 
+	Apresentar "Historia status final: " + o historia de resultado ; 
+	
+senão 
+	atribuir o historia  de resultado a "Reprovado";  
+	Apresentar "Historia status final: " + o historia de resultado ; 
+  ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

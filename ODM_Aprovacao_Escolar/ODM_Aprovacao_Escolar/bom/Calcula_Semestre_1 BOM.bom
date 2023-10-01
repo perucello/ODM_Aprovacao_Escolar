@@ -1,0 +1,25 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/ODM_Aprovacao_Escolar//ODM_Aprovacao_Escolar_XOM"
+property uuid "2fb8471b-6287-49bf-9747-5ef40e42f953"
+package com.educaciencia.odm.validacao;
+
+
+public class Calcula_Semestre_1
+{
+    public string geografia;
+    public string historia;
+    public string matemarica;
+    public double media_geografia;
+    public double media_historia;
+    public double media_matematica;
+    public double media_portugues;
+    public string portugues;
+    public boolean status_calcula_geografia;
+    public boolean status_calcula_historia;
+    public boolean status_calcula_matematica;
+    public boolean status_calcula_portugues;
+    public Calcula_Semestre_1(double arg1, string arg2, double arg3, string arg4, double arg5, string arg6, double arg7, string arg8, boolean arg9, boolean arg10, boolean arg11, boolean arg12);
+    public Calcula_Semestre_1();
+}
+

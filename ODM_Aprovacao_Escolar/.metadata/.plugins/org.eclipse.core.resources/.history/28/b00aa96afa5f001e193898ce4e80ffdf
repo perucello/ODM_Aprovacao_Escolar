@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="calcula_aprovacao" targetRuleProjectName="ODM_Aprovacao_Escolar">
+  <name>calcula_aprovacao</name>
+  <uuid>41be25d0-f8d8-43ea-bbbe-ecbaecf7e74a</uuid>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="calcula_aprovacao_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../ODM_Aprovacao_Escolar#4ba943a2-fb27-4b4f-8a35-64aa422137ef"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

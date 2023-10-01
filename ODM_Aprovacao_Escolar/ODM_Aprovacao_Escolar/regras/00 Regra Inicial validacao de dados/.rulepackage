@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>00 Regra Inicial validacao de dados</name>
+  <uuid>1c769c95-2504-4939-9867-113bee71a14b</uuid>
+</ilog.rules.studio.model.base:RulePackage>

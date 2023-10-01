@@ -1,0 +1,26 @@
+package com.educaciencia.odm.request;
+/* ********************************************************************** 
+*************** PROJETO EDUUCACIENCIA ***********************************
+*************************************************************************
+****** Data: 30/09/2023
+****** Projeto: APROVACAO ESCOLAR
+****** Versão: 1.0
+****** Atualização: 30/09/2023
+************************************************************************/
+public class Nota_Semestre_1 {
+	
+	private int nota_portugues;
+	private String portugues;
+
+	private int nota_matematica;
+	private String matemarica;
+	
+	private int nota_historia;
+	private String historia;
+	
+	private int nota_geografia;
+	private String geografia;
+	
+	
+
+}

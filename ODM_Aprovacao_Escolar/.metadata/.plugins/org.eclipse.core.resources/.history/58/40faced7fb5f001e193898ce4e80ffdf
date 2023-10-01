@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>Fluxo</name>
+  <uuid>ad515a11-3fe3-4953-9d1e-d6950f36c840</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_10"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Valida dados" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Request Semestre 1" Ordering="Default"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Request Semestre 2" Ordering="Default"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Valida Media" Ordering="Default"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Valida Aprovacao ou Reprovacao" Ordering="Default"/>
+      <SubflowTask Identifier="Status final"/>
+      <StopTask Identifier="task_1"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+      <TaskNode Identifier="node_2" Task="Valida dados"/>
+      <TaskNode Identifier="node_3" Task="Request Semestre 1"/>
+      <TaskNode Identifier="node_4" Task="Request Semestre 2"/>
+      <TaskNode Identifier="node_7" Task="Valida Media"/>
+      <TaskNode Identifier="node_8" Task="Valida Aprovacao ou Reprovacao"/>
+      <TaskNode Identifier="node_9" Task="Status final"/>
+      <TaskNode Identifier="node_10" Task="task_10"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_2" Target="node_3"/>
+      <Transition Identifier="transition_1" Source="node_3" Target="node_4"/>
+      <Transition Identifier="transition_2" Source="node_4" Target="node_7"/>
+      <Transition Identifier="transition_3" Source="node_7" Target="node_8"/>
+      <Transition Identifier="transition_4" Source="node_8" Target="node_9"/>
+      <Transition Identifier="transition_5" Source="node_9" Target="node_1"/>
+      <Transition Identifier="transition_7" Source="node_10" Target="node_2"/>
+      <Transition Identifier="transition_8" Source="node_2" Target="node_1">
+        <Conditions Language="bal"><![CDATA[dadosOK é falso ]]></Conditions>
+      </Transition>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_2#height">53.402344</Data>
+      <Data Name="node_4#width">102.0</Data>
+      <Data Name="node_1#height">21.000021</Data>
+      <Data Name="node_3#height">68.103516</Data>
+      <Data Name="transition_8#label">dados invalidos de entrada</Data>
+      <Data Name="node_4#height">68.103516</Data>
+      <Data Name="node_7#y">437.31055</Data>
+      <Data Name="node_8#x">53.36035</Data>
+      <Data Name="node_8#y">555.41406</Data>
+      <Data Name="node_9#x">53.36035</Data>
+      <Data Name="node_9#width">102.0</Data>
+      <Data Name="node_9#y">673.5176</Data>
+      <Data Name="node_2#name">node_1</Data>
+      <Data Name="node_7#height">53.402344</Data>
+      <Data Name="node_10#height">21.0</Data>
+      <Data Name="node_7#width">102.0</Data>
+      <Data Name="node_8#height">82.80469</Data>
+      <Data Name="node_9#height">53.402344</Data>
+      <Data Name="node_2#width">102.0</Data>
+      <Data Name="node_10#x">87.54053</Data>
+      <Data Name="node_10#y">10.5</Data>
+      <Data Name="node_3#y">208.4541</Data>
+      <Data Name="node_4#x">53.36035</Data>
+      <Data Name="node_4#y">326.55762</Data>
+      <Data Name="node_7#x">53.36035</Data>
+      <Data Name="node_1#x">87.54053</Data>
+      <Data Name="node_8#name">node_1</Data>
+      <Data Name="node_1#y">760.71875</Data>
+      <Data Name="node_2#x">87.54053</Data>
+      <Data Name="node_2#y">97.70117</Data>
+      <Data Name="node_3#x">53.36035</Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="node_3#width">102.0</Data>
+      <Data Name="node_10#name">node_0</Data>
+      <Data Name="node_4#name">node_1</Data>
+      <Data Name="node_8#width">106.7207</Data>
+      <Data Name="node_7#name">node_1</Data>
+      <Data Name="node_1#width">20.999998</Data>
+      <Data Name="node_9#name">node_5</Data>
+      <Data Name="node_10#width">21.0</Data>
+      <Data Name="transition_0#label">dados OK</Data>
+      <Data Name="node_3#name">node_1</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

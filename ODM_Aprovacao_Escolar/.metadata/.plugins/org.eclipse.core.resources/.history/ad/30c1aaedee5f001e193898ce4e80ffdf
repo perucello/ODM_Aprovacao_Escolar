@@ -1,0 +1,25 @@
+package com.educaciencia.odm.validacao;
+
+/* ********************************************************************** 
+*************** PROJETO EDUUCACIENCIA ***********************************
+*************************************************************************
+****** Data: 30/09/2023
+****** Projeto: APROVACAO ESCOLAR
+****** Versão: 1.0
+****** Atualização: 30/09/2023
+************************************************************************/
+
+public class Calcula_Semestre_2 {
+
+	private double media_portugues;
+	private String portugues;
+
+	private double media_matematica;
+	private String matemarica;
+	
+	private double media_historia;
+	private String historia;
+	
+	private double media_geografia;
+	private String geografia;
+}

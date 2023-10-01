@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable/>
+    <vocTable/>
+    <ruleParamTable>
+        <param id="dadosOK">
+            <rule id="ad515a11-3fe3-4953-9d1e-d6950f36c840"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="ad515a11-3fe3-4953-9d1e-d6950f36c840">
+            <param id="dadosOK"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="ecf38c41-eb37-448c-a2bf-ec0fed26fa1e">
+            <rule id="ad515a11-3fe3-4953-9d1e-d6950f36c840"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable/>
+    <resourceTable>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Fluxo de Decisao/Fluxo.rfl" id="ad515a11-3fe3-4953-9d1e-d6950f36c840"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/variaveis.var" id="ecf38c41-eb37-448c-a2bf-ec0fed26fa1e"/>
+    </resourceTable>
+</impactTables>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.educaciencia.odm.response.Resultado/matemarica/SETTER#0">
+            <rule id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/status_matematica/PREDICATE_SETTER#0">
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1/nota_geografia/GETTER#0">
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/status_portugues/PREDICATE_SETTER#0">
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_historia/SETTER#0">
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1">
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_matematica/GETTER#0">
+            <rule id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_portugues/SETTER#0">
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2">
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/portugues/GETTER#0">
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/matemarica/SETTER#0">
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_historia/GETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/geografia/GETTER#0">
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1/nota_historia/GETTER#0">
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/geografia/SETTER#0">
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/matemarica/SETTER#0">
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_matematica/SETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2/nota_portugues/GETTER#0">
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_portugues/SETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_geografia/SETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_portugues/GETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="c8cd1d10-d793-498c-ae35-096b137c714c"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_geografia/GETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="d2f13826-6f78-4b0b-80e8-37747de6da54"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/status_geografia/PREDICATE_SETTER#0">
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2">
+            <rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1">
+            <rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/status_calcula_portugues/PREDICATE_SETTER#0">
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_historia/GETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_geografia/GETTER#0">
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_portugues/SETTER#0">
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/historia/SETTER#0">
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_historia/GETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/historia/GETTER#0">
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/matemarica/GETTER#0">
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/portugues/GETTER#0">
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_matematica/SETTER#0">
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/historia/SETTER#0">
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1/nota_portugues/GETTER#0">
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2/nota_geografia/GETTER#0">
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/geografia/GETTER#0">
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/matemarica/GETTER#0">
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/geografia/SETTER#0">
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1/nota_matematica/GETTER#0">
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/status_historia/PREDICATE_SETTER#0">
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_geografia/SETTER#0">
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_portugues/GETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/historia/SETTER#0">
+            <rule id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_historia/SETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_matematica/GETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/geografia/SETTER#0">
+            <rule id="d2f13826-6f78-4b0b-80e8-37747de6da54"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_historia/SETTER#0">
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado">
+            <rule id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f"/>
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="c8cd1d10-d793-498c-ae35-096b137c714c"/>
+            <rule id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+            <rule id="d2f13826-6f78-4b0b-80e8-37747de6da54"/>
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_portugues/GETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/historia/GETTER#0">
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/portugues/SETTER#0">
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/portugues/SETTER#0">
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/geografia/GETTER#0">
+            <rule id="d2f13826-6f78-4b0b-80e8-37747de6da54"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_matematica/GETTER#0">
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/portugues/GETTER#0">
+            <rule id="c8cd1d10-d793-498c-ae35-096b137c714c"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_matematica/SETTER#0">
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2/nota_historia/GETTER#0">
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/historia/GETTER#0">
+            <rule id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/portugues/SETTER#0">
+            <rule id="c8cd1d10-d793-498c-ae35-096b137c714c"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.Resultado/matemarica/GETTER#0">
+            <rule id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2/nota_matematica/GETTER#0">
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_geografia/SETTER#0">
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_geografia/GETTER#0">
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f">
+            <vocElt id="com.educaciencia.odm.response.Resultado/matemarica/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/matemarica/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_matematica/GETTER#0"/>
+        </rule>
+        <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba">
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_geografia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1/nota_geografia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/geografia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/status_geografia/PREDICATE_SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_geografia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/geografia/SETTER#0"/>
+        </rule>
+        <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931">
+            <vocElt id="com.educaciencia.odm.response.Resultado/status_historia/PREDICATE_SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/historia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_historia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/historia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1/nota_historia/GETTER#0"/>
+        </rule>
+        <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974">
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_geografia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/status_geografia/PREDICATE_SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_geografia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2/nota_geografia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/geografia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/geografia/SETTER#0"/>
+        </rule>
+        <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e">
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_historia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_geografia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_historia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_portugues/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_historia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_matematica/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_portugues/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_matematica/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_matematica/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_portugues/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_geografia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_historia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_matematica/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_portugues/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_geografia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_geografia/GETTER#0"/>
+        </rule>
+        <rule id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747">
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_historia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/historia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/historia/GETTER#0"/>
+        </rule>
+        <rule id="d2f13826-6f78-4b0b-80e8-37747de6da54">
+            <vocElt id="com.educaciencia.odm.response.Resultado/geografia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/geografia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_geografia/GETTER#0"/>
+        </rule>
+        <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942">
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1/nota_matematica/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/status_matematica/PREDICATE_SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/matemarica/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_matematica/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/matemarica/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1"/>
+        </rule>
+        <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573">
+            <vocElt id="com.educaciencia.odm.response.Resultado/status_portugues/PREDICATE_SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2/nota_portugues/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_portugues/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/portugues/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/portugues/GETTER#0"/>
+        </rule>
+        <rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef">
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1"/>
+        </rule>
+        <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700">
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/media_portugues/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/portugues/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_1/nota_portugues/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/portugues/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_1/status_calcula_portugues/PREDICATE_SETTER#0"/>
+        </rule>
+        <rule id="c8cd1d10-d793-498c-ae35-096b137c714c">
+            <vocElt id="com.educaciencia.odm.response.Resultado/resultado_media_portugues/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/portugues/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado/portugues/SETTER#0"/>
+        </rule>
+        <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78">
+            <vocElt id="com.educaciencia.odm.response.Resultado/status_historia/PREDICATE_SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/historia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_historia/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2/nota_historia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/historia/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2"/>
+        </rule>
+        <rule id="e3519b75-7523-454f-a104-5e8905753181">
+            <vocElt id="com.educaciencia.odm.response.Resultado/status_matematica/PREDICATE_SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/matemarica/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/media_matematica/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.Resultado"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2/nota_matematica/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2"/>
+            <vocElt id="com.educaciencia.odm.validacao.Calcula_Semestre_2/matemarica/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.Nota_Semestre_2"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="resultado">
+            <rule id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f"/>
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="c8cd1d10-d793-498c-ae35-096b137c714c"/>
+            <rule id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+            <rule id="d2f13826-6f78-4b0b-80e8-37747de6da54"/>
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </param>
+        <param id="nota_Semestre_1">
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        </param>
+        <param id="nota_Semestre_2">
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </param>
+        <param id="calcula_Semestre_2">
+            <rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </param>
+        <param id="calcula_Semestre_1">
+            <rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        </param>
+        <param id="dadosOK">
+            <rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f">
+            <param id="resultado"/>
+        </rule>
+        <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba">
+            <param id="resultado"/>
+            <param id="nota_Semestre_1"/>
+            <param id="dadosOK"/>
+            <param id="calcula_Semestre_1"/>
+        </rule>
+        <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931">
+            <param id="resultado"/>
+            <param id="nota_Semestre_1"/>
+            <param id="dadosOK"/>
+            <param id="calcula_Semestre_1"/>
+        </rule>
+        <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974">
+            <param id="resultado"/>
+            <param id="nota_Semestre_2"/>
+            <param id="calcula_Semestre_2"/>
+            <param id="dadosOK"/>
+        </rule>
+        <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e">
+            <param id="resultado"/>
+            <param id="calcula_Semestre_2"/>
+            <param id="calcula_Semestre_1"/>
+        </rule>
+        <rule id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747">
+            <param id="resultado"/>
+        </rule>
+        <rule id="d2f13826-6f78-4b0b-80e8-37747de6da54">
+            <param id="resultado"/>
+        </rule>
+        <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942">
+            <param id="resultado"/>
+            <param id="nota_Semestre_1"/>
+            <param id="dadosOK"/>
+            <param id="calcula_Semestre_1"/>
+        </rule>
+        <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573">
+            <param id="resultado"/>
+            <param id="nota_Semestre_2"/>
+            <param id="calcula_Semestre_2"/>
+            <param id="dadosOK"/>
+        </rule>
+        <rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef">
+            <param id="calcula_Semestre_2"/>
+            <param id="calcula_Semestre_1"/>
+            <param id="dadosOK"/>
+        </rule>
+        <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700">
+            <param id="nota_Semestre_1"/>
+            <param id="dadosOK"/>
+            <param id="calcula_Semestre_1"/>
+        </rule>
+        <rule id="c8cd1d10-d793-498c-ae35-096b137c714c">
+            <param id="resultado"/>
+        </rule>
+        <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78">
+            <param id="resultado"/>
+            <param id="nota_Semestre_2"/>
+            <param id="calcula_Semestre_2"/>
+            <param id="dadosOK"/>
+        </rule>
+        <rule id="e3519b75-7523-454f-a104-5e8905753181">
+            <param id="resultado"/>
+            <param id="nota_Semestre_2"/>
+            <param id="calcula_Semestre_2"/>
+            <param id="dadosOK"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="ecf38c41-eb37-448c-a2bf-ec0fed26fa1e">
+            <rule id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f"/>
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747"/>
+            <rule id="d2f13826-6f78-4b0b-80e8-37747de6da54"/>
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+            <rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+            <rule id="c8cd1d10-d793-498c-ae35-096b137c714c"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/ODM_Aprovacao_Escolar/bom/Calcula_Semestre_2 BOM_pt_BR.voc" id="df1129b8-4842-44e7-b01f-8c998f9ece9d">
+            <rule id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+            <rule id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+            <rule id="e3519b75-7523-454f-a104-5e8905753181"/>
+            <rule id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        </vocFile>
+        <vocFile file="/ODM_Aprovacao_Escolar/bom/Calcula_Semestre_1 BOM_pt_BR.voc" id="c9a22b64-0cee-475e-a8ba-c91d46cc616d">
+            <rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+            <rule id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+            <rule id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+            <rule id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+            <rule id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        </vocFile>
+        <vocFile file="/ODM_Aprovacao_Escolar/bom/Resultado BOM_pt_BR.voc" id="48c2301e-7a21-46d9-bed6-00e92dfbcbb5">
+            <rule id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f"/>
+            <rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+            <rule id="c8cd1d10-d793-498c-ae35-096b137c714c"/>
+            <rule id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747"/>
+            <rule id="d2f13826-6f78-4b0b-80e8-37747de6da54"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Semestre 1/Regra_Matematica.brl" id="380d98d2-75dd-439e-9db2-b3aa4b2e4942"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Aprovado_Reprovado/Calcula_Aprovacao_Geografia.brl" id="d2f13826-6f78-4b0b-80e8-37747de6da54"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Semestre 2/Regra_Portugues.brl" id="e5413ba2-e09a-45f9-b1b0-03b9c8cc6573"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Aprovado_Reprovado/Calcula_Aprovacao_Matematica.brl" id="2778e3d1-63ef-48e2-ade8-c37a1ca07d5f"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Aprovado_Reprovado/Calcula_Aprovacao.brl" id="d2f13826-6f78-4b0b-80e8-37747de6da54"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Semestre 2/Regra_Geografia.brl" id="2dbda8f0-8f00-439d-a3ec-b59316d33974"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/00 Regra Inicial validacao de dados/Regra_valida_dados.brl" id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Aprovado_Reprovado/Calcula_Aprovacao_Portugues.brl" id="c8cd1d10-d793-498c-ae35-096b137c714c"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Aprovado_Reprovado/Calcula_Aprovacao_Historia.brl" id="e73bf6c4-4718-451a-94fc-ea3aa2ce6747"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Semestre 2/Regra_Historia.brl" id="26b3d5cb-ddcb-4702-9856-7cd4a8354a78"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Semestre 1/Regra_Historia.brl" id="125f6bd7-bc58-4ce2-b62f-ecef3f27f931"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Semestre 1/Regra_Geografia.brl" id="218bacda-15e4-49bf-a3ba-6ab54e82a3ba"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Media_Final/Regra_Calcula_Media_Final.brl" id="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Semestre 2/Regra_Matematica.brl" id="e3519b75-7523-454f-a104-5e8905753181"/>
+        <resource file="/ODM_Aprovacao_Escolar/regras/Semestre 1/Regra_Portugues.brl" id="d5abf61e-415d-4d2b-a2a2-bbae6ebcb700"/>
+    </resourceTable>
+</impactTables>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calcula_Aprovacao_Matematica</name>
+  <uuid>2778e3d1-63ef-48e2-ade8-c37a1ca07d5f</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 o resultado media geografia de resultado é no mínimo 7 
+então 
+	Apresentar "****************** LOG **************************************";
+	
+	atribuir o geografia de resultado a "Aprovado" ; 
+	atribuir o historia de resultado a "Aprovado" ; 
+	atribuir o portugues de resultado a "Aprovado" ; 
+	atribuir o matemarica  de resultado a "Aprovado" ; 
+	Apresentar "Geografia status final: " + o geografia de resultado ; 
+	Apresentar "Historia status final: " + o geografia de resultado ; 
+	Apresentar "Portugues status final: " + o geografia de resultado ; 
+	Apresentar "Matematica status final: " + o geografia de resultado ; 
+	
+senão 
+	Apresentar "****************** LOG **************************************";
+	
+	atribuir o geografia  de resultado a "Reprovado";  
+	atribuir o historia  de resultado a "Reprovado";  
+	atribuir o portugues  de resultado a "Reprovado";  
+	atribuir o matemarica  de resultado a "Reprovado";  
+  	Apresentar "Geografia status final: " + o geografia de resultado ; 
+	Apresentar "Historia status final: " + o geografia de resultado ; 
+	Apresentar "Portugues status final: " + o geografia de resultado ; 
+	Apresentar "Matematica status final: " + o geografia de resultado ; 
+  ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,29 @@
+# Vocabulary Properties
+uuid = eb572d3f-e53d-4328-995c-ec786bbf3ca7
+
+# com.educaciencia.odm.validacao.Calcula_Semestre_1
+com.educaciencia.odm.validacao.Calcula_Semestre_1#concept.label = calcula semestre 1
+com.educaciencia.odm.validacao.Calcula_Semestre_1._media_portugues#phrase.action = atribuir o media portugues {this,PARTITIVE_ARTICLE} a {media portugues}
+com.educaciencia.odm.validacao.Calcula_Semestre_1._media_portugues#phrase.navigation = {media portugues} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.geografia#phrase.action = atribuir o geografia {this,PARTITIVE_ARTICLE} a {geografia}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.geografia#phrase.navigation = {geografia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.historia#phrase.action = atribuir o historia {this,PARTITIVE_ARTICLE} a {historia}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.historia#phrase.navigation = {historia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.matemarica#phrase.action = atribuir o matemarica {this,PARTITIVE_ARTICLE} a {matemarica}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.matemarica#phrase.navigation = {matemarica} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.media_geografia#phrase.action = atribuir o media geografia {this,PARTITIVE_ARTICLE} a {media geografia}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.media_geografia#phrase.navigation = {media geografia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.media_matematica#phrase.action = atribuir o media matematica {this,PARTITIVE_ARTICLE} a {media matematica}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.media_matematica#phrase.navigation = {media matematica} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.portugues#phrase.action = atribuir o portugues {this,PARTITIVE_ARTICLE} a {portugues}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.portugues#phrase.navigation = {portugues} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.resultado_media_historia#phrase.action = atribuir o resultado media historia {this,PARTITIVE_ARTICLE} a {resultado media historia}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.resultado_media_historia#phrase.navigation = {resultado media historia} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validacao.Calcula_Semestre_1.status_calcula_geografia#phrase.action = colocar à {status calcula geografia} que {this} é status calcula geografia
+com.educaciencia.odm.validacao.Calcula_Semestre_1.status_calcula_geografia#phrase.navigation = {this} é status calcula geografia
+com.educaciencia.odm.validacao.Calcula_Semestre_1.status_calcula_historia#phrase.action = colocar à {status calcula historia} que {this} é status calcula historia
+com.educaciencia.odm.validacao.Calcula_Semestre_1.status_calcula_historia#phrase.navigation = {this} é status calcula historia
+com.educaciencia.odm.validacao.Calcula_Semestre_1.status_calcula_matematica#phrase.action = colocar à {status calcula matematica} que {this} é status calcula matematica
+com.educaciencia.odm.validacao.Calcula_Semestre_1.status_calcula_matematica#phrase.navigation = {this} é status calcula matematica
+com.educaciencia.odm.validacao.Calcula_Semestre_1.status_calcula_portugues#phrase.action = colocar à {status calcula portugues} que {this} é status calcula portugues
+com.educaciencia.odm.validacao.Calcula_Semestre_1.status_calcula_portugues#phrase.navigation = {this} é status calcula portugues

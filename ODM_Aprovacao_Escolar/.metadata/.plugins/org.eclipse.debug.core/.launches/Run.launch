@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/ODM_Aprovacao_Escolar/implementação/calcula_aprovacao"/>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_SIGN">
+<mapEntry key="nota_Semestre_1" value="function com.educaciencia.odm.request.Nota_Semestre_1 get_nota_Semestre_1_value()"/>
+<mapEntry key="nota_Semestre_2" value="function com.educaciencia.odm.request.Nota_Semestre_2 get_nota_Semestre_2_value()"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
+<mapEntry key="nota_Semestre_1" value="com.educaciencia.odm.request.Nota_Semestre_1 semestre1 = new com.educaciencia.odm.request.Nota_Semestre_1();&#10;semestre1.nota_portugues = 8.00;&#10;semestre1.nota_matematica = 8.00;&#10;semestre1.nota_historia = 8.00;&#10;semestre1.nota_geografia = 8.00;&#10;return semestre1;&#10;"/>
+<mapEntry key="nota_Semestre_2" value="com.educaciencia.odm.request.Nota_Semestre_2 semestre2 = new com.educaciencia.odm.request.Nota_Semestre_2();&#10;semestre2.nota_portugues = 5.00;&#10;semestre2.nota_matematica = 9.00;&#10;semestre2.nota_historia = 2.00;&#10;semestre2.nota_geografia = 10.00;&#10;return semestre2;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
+<mapEntry key="nota_Semestre_1" value="nota_Semestre_1"/>
+<mapEntry key="nota_Semestre_2" value="nota_Semestre_2"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_SIMPLE_VALUES">
+<mapEntry key="nota_Semestre_1" value=""/>
+<mapEntry key="nota_Semestre_2" value=""/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_TYPES">
+<mapEntry key="nota_Semestre_1" value="2"/>
+<mapEntry key="nota_Semestre_2" value="2"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ODM_Aprovacao_Escolar"/>
+<listEntry value="/ODM_Aprovacao_Escolar"/>
+<listEntry value="/ODM_Aprovacao_Escolar/implementação/calcula_aprovacao.dop"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ODM_Aprovacao_Escolar"/>
+</launchConfiguration>

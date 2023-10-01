@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Semestre 2</name>
+  <uuid>d4ff09ac-f0ad-4d59-a700-4eb2db83cf7a</uuid>
+</ilog.rules.studio.model.base:RulePackage>

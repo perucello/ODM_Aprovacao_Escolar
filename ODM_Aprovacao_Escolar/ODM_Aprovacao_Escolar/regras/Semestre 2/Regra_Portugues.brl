@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra_Portugues</name>
+  <uuid>e5413ba2-e09a-45f9-b1b0-03b9c8cc6573</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 dadosOK é verdadeiro 
+então
+	atribuir o media portugues  de calcula_Semestre_2 a o nota portugues de request_nota_Semestre_2;  
+	Apresentar "Portugues semestre 2 = " + o nota portugues de request_nota_Semestre_2 ;  
+	colocar à verdadeiro que resultado é status portugues ; 
+
+senão 
+	colocar à falso  que resultado é status portugues ; 
+	atribuir o portugues  de calcula_Semestre_2 a o portugues de calcula_Semestre_2 ;
+	Apresentar "Comentarios Portugues: " + o portugues  de calcula_Semestre_2 ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variaveis</name>
+  <uuid>ecf38c41-eb37-448c-a2bf-ec0fed26fa1e</uuid>
+  <variables name="nota_Semestre_1" type="com.educaciencia.odm.request.Nota_Semestre_1" initialValue="" verbalization="request_nota_Semestre_1"/>
+  <variables name="nota_Semestre_2" type="com.educaciencia.odm.request.Nota_Semestre_2" initialValue="" verbalization="request_nota_Semestre_2"/>
+  <variables name="calcula_Semestre_1" type="com.educaciencia.odm.validacao.Calcula_Semestre_1" initialValue="new com.educaciencia.odm.validacao.Calcula_Semestre_1()" verbalization="calcula_Semestre_1"/>
+  <variables name="calcula_Semestre_2" type="com.educaciencia.odm.validacao.Calcula_Semestre_2" initialValue="new com.educaciencia.odm.validacao.Calcula_Semestre_2()" verbalization="calcula_Semestre_2"/>
+  <variables name="resultado" type="com.educaciencia.odm.response.Resultado" initialValue="new com.educaciencia.odm.response.Resultado()" verbalization="resultado"/>
+</ilog.rules.studio.model.base:VariableSet>

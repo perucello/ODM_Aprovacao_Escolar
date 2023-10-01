@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra_Matematica</name>
+  <uuid>e3519b75-7523-454f-a104-5e8905753181</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 dadosOK é verdadeiro 
+então
+	Apresentar "****************** LOG **************************************";
+	
+	atribuir o media matematica  de calcula_Semestre_2 a o nota matematica  de request_nota_Semestre_2;  
+	Apresentar "Matematica semestre 2 = " + o nota matematica  de request_nota_Semestre_2;  
+	colocar à verdadeiro que resultado é status matematica; 
+
+senão 
+	Apresentar "****************** LOG **************************************";
+	
+	colocar à falso  que resultado é status  matematica ; 
+	atribuir o matemarica de calcula_Semestre_2 a o matemarica de calcula_Semestre_2 ;
+	Apresentar "Comentarios Matematica: " + o matemarica de calcula_Semestre_2 ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

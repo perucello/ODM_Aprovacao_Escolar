@@ -1,0 +1,20 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/ODM_Aprovacao_Escolar//ODM_Aprovacao_Escolar_XOM"
+property uuid "481d38ab-805a-48aa-a926-c5bd06c7a7f0"
+package com.educaciencia.odm.request;
+
+
+public class Nota_Semestre_1
+{
+    public double nota_geografia;
+    public double nota_historia;
+    public double nota_matematica;
+    public double nota_portugues;
+    public Nota_Semestre_1(double arg);
+    public Nota_Semestre_1(double arg1, double arg2);
+    public Nota_Semestre_1(double arg1, double arg2, double arg3);
+    public Nota_Semestre_1(double arg1, double arg2, double arg3, double arg4);
+    public Nota_Semestre_1();
+}
+

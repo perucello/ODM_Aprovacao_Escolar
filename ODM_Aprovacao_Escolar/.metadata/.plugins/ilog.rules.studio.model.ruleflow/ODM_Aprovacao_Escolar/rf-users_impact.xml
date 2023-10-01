@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Rule id="6387b4f1-d04c-43ca-bc58-4258c28fa6ef" path="regras/00 Regra Inicial validacao de dados/Regra_valida_dados.brl">
+        <UserFlow id="ad515a11-3fe3-4953-9d1e-d6950f36c840"/>
+    </Rule>
+    <Rule id="5b532f10-bea3-45a0-8b41-e944bd2c534e" path="regras/Media_Final/Regra_Calcula_Media_Final.brl">
+        <UserFlow id="ad515a11-3fe3-4953-9d1e-d6950f36c840"/>
+    </Rule>
+    <Package id="Semestre 1">
+        <UserFlow id="ad515a11-3fe3-4953-9d1e-d6950f36c840"/>
+    </Package>
+    <Package id="Aprovado_Reprovado">
+        <UserFlow id="ad515a11-3fe3-4953-9d1e-d6950f36c840"/>
+    </Package>
+    <Package id="Semestre 2">
+        <UserFlow id="ad515a11-3fe3-4953-9d1e-d6950f36c840"/>
+    </Package>
+</ImpactedElements>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>Fluxo</name>
+  <uuid>ad515a11-3fe3-4953-9d1e-d6950f36c840</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_10"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Valida dados" Ordering="Default">
+        <FinalActions Language="bal"><![CDATA[Apresentar "" ;]]></FinalActions>
+        <RuleList>
+          <Rule Uuid="6387b4f1-d04c-43ca-bc58-4258c28fa6ef"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Request Semestre 1" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "***** Notas Primeiro Semestre - EducaCiencia Fast Code *****" ;]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "" ;]]></FinalActions>
+        <RuleList>
+          <Package Name="Semestre 1"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Request Semestre 2" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "***** Notas Segundo Semestre - EducaCiencia Fast Code *****" ;]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "" ;]]></FinalActions>
+        <RuleList>
+          <Package Name="Semestre 2"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Valida Media" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "***** Media Final - EducaCiencia Fast Code *****" ;]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "" ;]]></FinalActions>
+        <RuleList>
+          <Rule Uuid="5b532f10-bea3-45a0-8b41-e944bd2c534e"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Valida Aprovacao ou Reprovacao" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "***** Status - EducaCiencia Fast Code *****" ;]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "" ;]]></FinalActions>
+        <RuleList>
+          <Package Name="Aprovado_Reprovado"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_1"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+      <TaskNode Identifier="node_2" Task="Valida dados"/>
+      <TaskNode Identifier="node_3" Task="Request Semestre 1"/>
+      <TaskNode Identifier="node_4" Task="Request Semestre 2"/>
+      <TaskNode Identifier="node_7" Task="Valida Media"/>
+      <TaskNode Identifier="node_8" Task="Valida Aprovacao ou Reprovacao"/>
+      <TaskNode Identifier="node_10" Task="task_10"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_2" Target="node_3"/>
+      <Transition Identifier="transition_1" Source="node_3" Target="node_4"/>
+      <Transition Identifier="transition_2" Source="node_4" Target="node_7"/>
+      <Transition Identifier="transition_3" Source="node_7" Target="node_8"/>
+      <Transition Identifier="transition_7" Source="node_10" Target="node_2"/>
+      <Transition Identifier="transition_8" Source="node_2" Target="node_1">
+        <Conditions Language="bal"><![CDATA[dadosOK é falso ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_9" Source="node_8" Target="node_1"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_2#height">52.929565</Data>
+      <Data Name="node_4#width">192.65259</Data>
+      <Data Name="node_1#height">20.000044</Data>
+      <Data Name="node_3#height">66.85886</Data>
+      <Data Name="transition_8#label">dados invalidos de entrada</Data>
+      <Data Name="node_4#height">66.858826</Data>
+      <Data Name="node_7#y">434.11206</Data>
+      <Data Name="node_8#x">290.7304</Data>
+      <Data Name="node_8#y">541.2758</Data>
+      <Data Name="node_2#name">node_1</Data>
+      <Data Name="node_7#height">52.929535</Data>
+      <Data Name="node_10#height">21.0</Data>
+      <Data Name="node_7#width">183.32031</Data>
+      <Data Name="node_8#height">61.39807</Data>
+      <Data Name="node_2#width">436.0956</Data>
+      <Data Name="node_10#x">218.0478</Data>
+      <Data Name="node_10#y">10.5</Data>
+      <Data Name="node_3#y">207.359</Data>
+      <Data Name="node_4#x">290.7304</Data>
+      <Data Name="node_4#y">324.21783</Data>
+      <Data Name="node_7#x">290.7304</Data>
+      <Data Name="node_1#x">218.0478</Data>
+      <Data Name="node_8#name">node_1</Data>
+      <Data Name="node_1#y">631.97485</Data>
+      <Data Name="node_2#x">218.0478</Data>
+      <Data Name="node_2#y">97.46478</Data>
+      <Data Name="node_3#x">290.7304</Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="node_3#width">198.65216</Data>
+      <Data Name="node_10#name">node_0</Data>
+      <Data Name="node_4#name">node_1</Data>
+      <Data Name="node_8#width">250.21698</Data>
+      <Data Name="node_7#name">node_1</Data>
+      <Data Name="node_1#width">19.999992</Data>
+      <Data Name="node_10#width">21.0</Data>
+      <Data Name="transition_0#label">dados OK</Data>
+      <Data Name="node_3#name">node_1</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

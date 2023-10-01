@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra_Calcula_Media_Final</name>
+  <uuid>5b532f10-bea3-45a0-8b41-e944bd2c534e</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[então 
+	atribuir o resultado media geografia de resultado a ( o media geografia de calcula_Semestre_1 + o media geografia de calcula_Semestre_2 ) / 2 ; 
+	atribuir o resultado media historia de resultado a ( o media historia de calcula_Semestre_1 + o media historia de calcula_Semestre_2 ) / 2 ; 
+	atribuir o resultado media portugues de resultado a ( o media portugues de calcula_Semestre_1 + o media portugues de calcula_Semestre_2 ) / 2 ; 
+	atribuir o resultado media matematica de resultado a ( o media matematica de calcula_Semestre_1 + o media matematica de calcula_Semestre_2 ) / 2 ;
+	Apresentar "Media final Geografia: " + o resultado media geografia de resultado ;  
+	Apresentar "Media final Historia: " + o resultado media historia de resultado ;  
+	Apresentar "Media final Matematica: " + o resultado media matematica de resultado ;  
+	Apresentar "Media final Portugues: " + o resultado media portugues de resultado ;  
+	
+	]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra_Geografia</name>
+  <uuid>218bacda-15e4-49bf-a3ba-6ab54e82a3ba</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 dadosOK é verdadeiro 
+então
+	Apresentar "";
+	atribuir o media geografia de calcula_Semestre_1 a o nota geografia de request_nota_Semestre_1 ;
+	Apresentar "Geografia semestre 1 = " + o media geografia de calcula_Semestre_1 ;   
+	colocar à verdadeiro que calcula_Semestre_1 é status calcula geografia ; 
+
+senão 
+	Apresentar "";
+	colocar à falso que calcula_Semestre_1 é status calcula geografia ; 
+	atribuir o geografia de calcula_Semestre_1 a o geografia de calcula_Semestre_1 ;
+	Apresentar "Comentarios Geogradia: " + o geografia de calcula_Semestre_1 ;   ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

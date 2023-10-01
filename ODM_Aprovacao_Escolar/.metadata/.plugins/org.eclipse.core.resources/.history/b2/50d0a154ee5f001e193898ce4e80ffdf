@@ -1,0 +1,25 @@
+package com.educaciencia.odm.request;
+
+/* ********************************************************************** 
+*************** PROJETO EDUUCACIENCIA ***********************************
+*************************************************************************
+****** Data: 30/09/2023
+****** Projeto: APROVACAO ESCOLAR
+****** Versão: 1.0
+****** Atualização: 30/09/2023
+************************************************************************/
+public class Nota_Semestre_1 {
+
+	private double nota_portugues;
+	private String portugues = "Sem nota atribuida";
+
+	private double nota_matematica;
+	private String matemarica = "Sem nota atribuida";
+
+	private double nota_historia;
+	private String historia = "Sem nota atribuida";
+
+	private double nota_geografia;
+	private String geografia = "Sem nota atribuida";
+
+}
